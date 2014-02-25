@@ -46,6 +46,10 @@ bool HelloWorld::init()
     // 屏幕中间
     pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
 
+    //扩展
+    pSprite->setScaleX(visibleSize.width / pSprite->getContentSize().width);
+    pSprite->setScaleY(visibleSize.height / pSprite->getContentSize().height);
+
     // 背景添加
     this->addChild(pSprite, 0);
 
