@@ -16,6 +16,8 @@ local.properties
 .settings/
 .loadpath
 proj.android/obj/
+proj.android/bin/
+
 
 # External tool builders
 .externalToolBuilders/
